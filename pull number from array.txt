@@ -1,0 +1,18 @@
+// Write a function that accepts an array of test scores as an
+// agrument. The function should return the number of test scores that
+// were an 80 or higher.
+// uses a counter
+let arr=[60, 70, 80, 90, 95, 100];
+
+function bAndHigher(numArray){
+  let counter=0;
+  for (i = 0; i<numArray.length; i++){
+    if (numArray[i] >= 80){
+      console.log(numArray[i]);
+      counter++;
+    }
+  }
+  return counter;
+}
+
+bAndHigher(arr);

@@ -1,0 +1,85 @@
+/*Create a function that takes two numbers as arguments and return their sum.
+function addition(a, b) {
+	var args = Array.prototype.slice.call(arguments);
+  var sum = args.reduce(function(a, b) {
+    return a + b;
+  })
+  return sum;
+}
+*/
+//
+//
+function addition(a, b) {
+    if (typeof a !== "number" || typeof b !== "number") {
+        return "Sorry but you didn't pass two numbers.";
+    }
+    return a + b;
+ //  
+    const addition = (a, b) => a + b;
+//
+    function addition( a, b ) {
+  return a + b ;
+}
+//
+function addition( a, b ) {
+  return a+b ;
+}
+//
+let myObject={
+  canada:"large",
+  usa:"kindalarge",
+  mexico:"largebutnotreally"
+}
+return canada
+
+
+
+/* Write a function called “isOldEnoughToDrink”.
+Given a number, in this case an age, “isOldEnoughToDrink” returns whether a person of this given age is old enough to legally drink in the United States.
+Notes:
+* The legal drinking age in the United States is 21.
+*/
+
+function isOldEnoughToDrink(age){
+if (age >= 21){
+  return true;
+} else (age <= 21);{
+  return false;
+  }
+}
+
+var output = isOldEnoughToDrink(24);
+console.log(output);
+//
+
+
+
+//Write a function called "getFullName".
+
+//Given a first and a last name,
+// "getFullName" returns a single string 
+//with the given first and last names separated by a single space.
+//function getFullName(firstName, lastName) {
+//}
+//var output = getFullName('Joe', 'Smith');
+//console.log(output); // --> 'Joe Smith'
+//This is helpful for learning function definitions and structure,
+//and also how to combine strings together.
+
+//Instructions: return firstName + " " + lastName;
+//Because you give the first and last name as inputs, it can directly
+//use them to form the return string. 
+
+
+var person1 = {
+  firstName: "Arnold", 
+  lastName: "Palmer"
+  
+};
+
+function getFullName (firstName,lastName)
+ {
+return firstName + " " + lastName;
+
+}
+console.log(getFullName(person1));

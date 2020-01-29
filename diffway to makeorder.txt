@@ -1,0 +1,13 @@
+/*Write a function called `makeOrder`. It should take a table number, an array of order items, and an order status as arguments. It should return an object with the keys `tableNumber`, `order`, and `status` and their associated values.*/
+
+function makeOrder(num, items, status) {
+    newOrder = {
+    tableNumber: num,
+    order: items,
+    status: status,
+
+  }
+ return newOrder;
+}
+
+makeOrder(12, ["burger", "fries"], "being prepared");

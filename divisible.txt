@@ -1,0 +1,29 @@
+// Write a function that accepts 1 integer as an argument. The
+// function should return "true" if the number is divisible by either
+// 3 or 5, and return "false" otherwise.
+
+function countingTo(integer) {
+console.log(integer);
+    if (integer % 3 ===0 && integer % 5 ===0){
+      return true;
+    }
+    else {return false;}
+  }
+countingTo(15);
+
+
+//Write a function that accepts 1 integer as an argument. The function should return true if the number is divisible by either 3 or 5, and return false otherwise
+// function integerValue(anyValue) {
+// 	for (let i=0; i<=anyValue; i++) {
+// console.log(anyValue);
+// // function should return "true" if the number is divisible by either 3 or 5,
+// 	if (i % 3 === 0 && i % 5 === 0) {
+// 		return true;
+// 	}
+// //and return "false" otherwise.
+// 			else {
+// 				return false;
+// 			}}
+// }
+// console.log(integerValue(15));
+// integerValue(15);

@@ -1,0 +1,12 @@
+/*Write a function called `makeOrder`. It should take a table number, an array of order items, and an order status as arguments. It should return an object with the keys `tableNumber`, `order`, and `status` and their associated values.*/
+
+function makeOrder(tableNumber, order, status) {
+  var obj = {
+    'tableNumber': tableNumber,
+    'order': order,
+    'status': status,
+  };
+  
+  return obj;
+}
+makeOrder(1, ['Saab', 'Volvo', 'BMW'], 'Open');
